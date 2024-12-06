@@ -80,6 +80,21 @@ p{
     padding-right: 30px;
 }
 
+#barra-inferior{
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+    padding: 10px;
+    background-color: #02a28f;
+    color: #fff;
+
+}
+
+#category{
+    display: flex;
+    flex-direction: column;
+}
+
 .grid-container-1{
     padding: 20px 120px 20px 100px;
     display: flex;
@@ -148,8 +163,11 @@ p{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     
+    
 }
 
 .list-category{
     list-style-type: none;
 }
+
+
